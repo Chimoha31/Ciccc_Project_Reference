@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
+import styles from './Products.module.css';
+import Product from './product/Product';
 
 const Products = () => {
   return (
-    <div>
-      Products
+    <div className={styles.products}>
+      <Product />
     </div>
   )
 }
