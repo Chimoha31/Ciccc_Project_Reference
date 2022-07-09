@@ -17,8 +17,8 @@ const CartItem = () => {
         </div>
         <button className={styles.actions__deleteItemBtn}>
           <img
-            src=""
-            alt=""
+            src="https://cdn-icons-png.flaticon.com/512/2891/2891491.png"
+            alt="trash icon"
           />
         </button>
       </div>
